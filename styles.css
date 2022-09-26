@@ -1,0 +1,413 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+}
+
+a{
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+}
+
+div{
+    margin: 0;
+}
+
+h1, h2, h3, h4, p{
+    margin: 0;
+}
+
+h3{
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+    font-size: 1.875rem;
+    color: #3B5E51;
+}
+
+h2{
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+    font-size: 2.875rem;
+    color: #174A42;
+}
+
+p{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #4B4B4B;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 28px;
+    margin-top:20px;
+}
+
+hr{
+    margin: 0 auto 90px auto;
+    opacity: 1;
+    /*margin-top: 0;
+    margin-bottom: 90px;*/
+    border-style: solid none none none;
+    color: #E9F0EF;
+    border-width: 4px;
+    width: 6%;
+}
+
+.grve-content {width:100%}
+
+.navbar{
+    margin-top: 17px;
+}
+
+.nav-image-container{
+    /*background-image:url(images/nav-profile-option.svg);*/
+    /*background-color:#174A42;*/
+    background-image: url(images/nav-profile.svg);
+    background-size: 63px;
+    border-radius: 100%;
+    width: 63px;
+    height: 63px;
+    transition: 100ms ease-in-out;
+}
+
+.nav-image-container-scrolled{
+    background-image: url(images/nav-profile-option.svg);
+    background-size: 40px;
+    width: 40px;
+    height: 40px;
+    transition: 100ms ease-in-out;
+}
+
+nav .navbar-nav li a{
+    font-size: 1.1875rem;
+    margin-left: 30px;
+    color: #3B5E51;
+    font-weight: 400;
+    }
+
+nav .navbar-nav li a:hover{
+    color: #174A42;
+    }
+
+.navbar-custom {
+    background-color: #D5EBE8;
+    transition: background-color 200ms linear;
+    transition: margin 50ms linear;
+    }
+
+.navbar-custom-scrolled{
+    margin-top: 0px;
+    background-color: white;
+    box-shadow: 0px 10px 20px rgba(114, 114, 114, 0.1);
+    transition: background-color 200ms linear;
+    transition: margin 50ms linear;
+}
+
+.custom-item{
+    color:#3B5E51;
+}
+
+.navbar-toggler{
+    border: none!important;
+}
+
+.top-container{
+    height: 100vh;
+    /*margin-top: 56px;*/
+    /*height: calc(100vh - 56px);*/
+    background-color: #D5EBE8;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-text{
+    padding-top: 25vh;
+}
+
+.hero-title{
+    font-family: 'Yeseva One', cursive;
+    font-size: 7rem;
+    font-weight: 400;
+    color: #174A42;
+    text-align: center;
+}
+
+.hero-subtitle{
+    margin-top: 22px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: #3B5E51;
+    text-align: center;
+}
+
+.top-cloud{
+    position: absolute;
+    top: 18vh;
+    right: 25vw;
+}
+
+.bottom-cloud{
+    position: absolute;
+    top: 40vh;
+    left: 25vw;
+}
+
+.hero-illustration{
+    position: absolute;
+    width: 55%;
+    bottom: 0;
+}
+
+.middle-container{
+    margin: 90px 0;
+}
+
+.profile{
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.profile-pic{
+    margin-bottom: 36px;
+}
+
+.profile-description{
+    width: 18%;
+    margin: 20px auto auto auto;
+}
+
+.skills{
+    width: 40%;
+    margin: 0 auto 90px auto;
+}
+
+.design-container, .code-container, .ml-container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+
+.design-container, .code-container{
+    margin-bottom: 80px;
+}
+
+.code-container{
+    flex-direction: row-reverse;
+}
+
+
+#skills-header{
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.contact{
+    width: 35%;
+    text-align: center;
+    margin:auto;
+}
+
+.contact-header{
+    margin-bottom: 30px;
+}
+
+.contact-text{
+    margin-top: 30px;
+    margin-bottom: 43px;
+}
+
+.btn-custom{
+    padding: 13px 53px 13px 53px;
+    background-color: #95E1D3;
+    border-radius: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #174A42;
+    text-decoration: none;
+}
+
+.btn-custom:hover{
+    background-color: #B5EAE0;
+    color: #5C807A;
+}
+
+.bottom-container{
+    text-align: center;
+    padding: 40px 0 40px 0;
+    background-color: #D5EBE8;
+}
+
+.footer-link{
+    font-weight: 400;
+    font-size: 21px;
+    color: #3B5E51;
+    margin: 0 20px 0 20px;
+    text-decoration: none;
+}
+
+.footer-link:hover{
+    color: #5C807A;
+}
+
+.copyright{
+    font-weight: 400;
+    font-size: 13px;
+    color: #3B5E51;
+    margin-top: 35px;
+}
+
+@media only screen and (max-width: 1700px) {
+    .hero-title{
+        font-size: 4rem;
+    }
+    .hero-subtitle{
+        font-size: 1.563rem;
+        margin-top: 16px;
+    }
+    .hero-text{
+        padding-top: 25vh;
+    }
+    .top-cloud{
+        top: 18vh;
+    }
+    .bottom-cloud{
+        top: 40vh;
+    }
+    .profile-description{
+        width: 29%;
+    }
+    .skills{
+        width: 50%;
+    }
+    .contact{
+        width: 50%;
+    }
+    hr{
+        width: 8%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .hero-illustration{
+        width: 75%;
+    }
+    .profile-description{
+        width: 37%;
+    }
+    .skills{
+        width: 65%;
+    }
+    .contact{
+        width: 60%;
+    }
+    hr{
+        width: 9%;
+    }
+    
+}
+
+@media only screen and (max-width: 990px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+      }
+    .navbar .navbar-collapse {
+        text-align: center;
+      }
+    .navbar-custom{
+        background-color: white;
+        margin-top: 0;
+    }
+    .top-cloud{
+        top: 16vh;
+    }
+    .nav-image-container{
+        background-image: url(images/nav-profile-option.svg);
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .bottom-cloud{
+        top: 47vh;
+    }
+    .profile-description{
+        width: 47%;
+    }
+    .design-container, .code-container, .ml-container{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 35px;
+    }
+    .skill-text{
+        text-align: center;
+    }
+    .skills{
+        width: 70%;
+    }
+    .contact{
+        width: 70%;
+    }
+    hr{
+        width:15%;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .hero-illustration{
+        width: 90%;
+    }
+    .profile-description{
+        width: 57%;
+    }
+    hr{
+        width:30%;
+    }
+    .btn-custom{
+        padding: 13px 100px 13px 100px;
+    }
+    .middle-container{
+        margin: 70px 0 70px 0;
+    }
+    .profile{
+        margin-bottom: 70px;
+    }
+    .skills{
+        margin-bottom: 70px;
+    }
+    .design-container, .code-container{
+        margin-bottom: 70px;
+    }
+    #skills-header{
+        margin-bottom: 60px;
+    }
+    hr{
+        margin-bottom: 70px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .hero-title{
+        font-size: 3.5rem;
+    }
+    .hero-text{
+        padding-top: 35vh;
+    }
+    .bottom-cloud{
+        top: 60vh;
+    }
+    .top-cloud{
+        top: 20vh;
+    }
+    .profile-description{
+        width: 75%;
+    }
+    .btn-custom{
+        padding: 13px 37px 13px 37px;
+    }
+}
